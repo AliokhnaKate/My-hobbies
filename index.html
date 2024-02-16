@@ -3,53 +3,51 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Алёхна Екатерина Николаевна</title>
 </head>
 
 <body>
-    <header class="image">
-        <img src="img/my-foto.jpg" alt="фото Алёхна Екатерины" width="400">
-        <a href="#Kate-Alehna"></a>
-        <h1>Екатерина Алёхна</h1>
+    <header class="header">
+        <img class="header__image" src="img/my-foto.jpg" alt="фото Алёхна Екатерины" width="400">
+        <h1 class="header__title">Екатерина Алёхна</h1>
     </header>
-    <main id="Kate-Alehna">
-        <h2>О себе:</h2>
-        <section class="red">
-            <h3>Семья и хобби</h3>
-            <p>Счастлива в браке уже почти 10 лет. У нас есть прекрасная дочь Ариша. Уверена, что благодаря дочери интресесуюсь психологией и творчеством! Мне всегда нравилось рисовать и лепить! Вместе с ней ходим на разные мастер-классы, например, мастер-класс
-                из глины и акварельный скетчинг.</p>
-        </section>
-        <section class="red">
-            <h3>Работа</h3>
-            <p>Я имею высшее образование по специальности "Бухгалтерский учет, анализ и аудит". После окончания университета и по настоящее время работаю бухгалтером. Работать бухгалтером не нравиться, не нравиться ежедневно проводить на работе столько времени,
-                хочется больше времени уделять семье! Поэтому решила попробовать себя в it. И я начала изучать направления, сначала начала изучать javascript и с# самостоятельно. Самостоятельное изучение давалось очень нелегко, я не могла сама себя организовать,
-                тяжело было искать информацию для последовательного изучения. Для себя решила, что самостоятельное изучение дается мне тяжело, поэтому стала искать что-то другое и попробовать другое направление: тестирование и frontend-разработка. Бесплатный
-                вебинар с Ксенией убедил меня, что стоит попробовать frontend-разработку и вот я уже учусь! Даже самой не верится!</p>
-        </section>
-        <section class="red">
-            <h3>Любимые книги</h3>
-            <a href="https://www.labirint.ru/books/181818/">
-                <img src="img/image2.jpg" alt="Поющие в терновнике" width="100"></a>
-            <a href="https://www.labirint.ru/books/174500/">
-                <img src="img/image1.jpg" alt="Унесенные ветром" width="105"></a>
-            <a href="https://www.labirint.ru/books/323224/">
-                <img src="img/image3.jpg" alt="Джейн Эйр" width="95"></a>
-        </section>
-        <aside class="bold">
-            <article>
-                <i>Личная рекомендация: Соус Песто для брускетт и не только!</i>
-                <a href="index1.html">
-                    <img src="img/index.jpg" alt="Соус Песто" width="100"></a>
-            </article>
+    <main class="my-hobbies">
+        <h2 class="my-hobbies__title">Мои увлечения</h2>
+        <div class="hobbies">
+            <section class="psychology">
+                <h3 class="psychology__title">Психология</h3>
+                <p class="psychology__description">Психологией замотивировала заниматься дочка, когда ей было только 2 года. У нас была постоянная борьба, а так хотелось легкости в общении с ней, смеха, дать больше любви своей малышке. Сейчас, я благодарна себе, что когда-то задумалась
+                    над всем этим и начала читать литературу, работать, в первую очередь, над собой. Для дочери сейчас, я - мама, которой можно рассказать о своих страхах, желаниях, а также быть примером для нее во всем!</p>
+            </section>
+            <section class="reading">
+                <h3 class="reading__title">Любимые книги</h3>
+                <p class="reading__description">Люблю читать художественную литературу, но, к сожалению, очень редко нахожу время на чтение.</p>
+                <a class="reading__link" href="https://www.labirint.ru/books/181818/">
+                    <img src="img/image2.jpg" alt="Поющие в терновнике" width="100"></a>
+                <a class="reading__link" href="https://www.labirint.ru/books/174500/">
+                    <img src="img/image1.jpg" alt="Унесенные ветром" width="105"></a>
+                <a class="reading__link" href="https://www.labirint.ru/books/323224/">
+                    <img src="img/image3.jpg" alt="Джейн Эйр" width="95"></a>
+            </section>
+        </div>
+        <aside class="aside">
+            <h3 class="aside__title">Личная рекомендация: Соус Песто для брускетт и не только!</h3>
+            <a class="aside__link" href="index1.html">
+                <img src="img/index.jpg" alt="Соус Песто" width="100"></a>
         </aside>
     </main>
-    <footer class="top">
-        <h2>Контактная информация (соц. сети):</h2>
-        <div>
+    <footer class="footer">
+        <h2 class="footer__title">Контактная информация (соц. сети):</h2>
+        <div class="social-networks">
             <ul>
-                <li><a href="https://www.instagram.com/ekaterina_alehna/">instagram</a></li>
-                <li><a href="https://vk.com/id121922986/">vk.com</a></li>
+                <li class="social-networks__instagram">
+                    <a href="https://www.instagram.com/ekaterina_alehna/">instagram</a>
+                </li>
+                <li class="social-networks__vk">
+                    <a href="https://vk.com/id121922986/">vk.com</a>
+                </li>
             </ul>
         </div>
     </footer>
