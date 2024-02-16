@@ -1,1 +1,22 @@
-/*# sourceMappingURL=styles.css.map */
+@charset "UTF-8";
+/*Файл с переменными*/
+wrapper {
+  padding: 70px 0;
+}
+
+/*Файл с общими стилями*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Файл с миксинами*//*# sourceMappingURL=styles.css.map */
