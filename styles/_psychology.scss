@@ -6,8 +6,10 @@
     &__description {
         margin-bottom: 0;
     }
-    &__link {
+    & a {
         color: green;
         text-transform: uppercase;
+        font-weight: 700;
     }
+    /*не применяется св-во к классу .psychology__link*/
 }

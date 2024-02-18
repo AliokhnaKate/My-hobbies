@@ -1,0 +1,15 @@
+.column {
+    display: flex;
+    flex-direction: row;
+    &__link {
+        width: calc((100% - 24px) / 2);
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__link:not(:last-child) {
+        margin-right: 24px;
+    }
+}

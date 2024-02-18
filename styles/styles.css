@@ -70,6 +70,7 @@ a {
 
 .psychology {
   margin: 0 auto;
+  /*не применяется св-во к классу .psychology__link*/
 }
 .psychology__title {
   margin-top: 0;
@@ -77,7 +78,30 @@ a {
 .psychology__description {
   margin-bottom: 0;
 }
-.psychology__link {
+.psychology a {
   color: green;
   text-transform: uppercase;
+  font-weight: 700;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+}
+.column__link {
+  width: calc((100% - 24px) / 2);
+}
+.column__link img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.column__link:not(:last-child) {
+  margin-right: 24px;
+}
+
+.reading__description {
+  max-width: 700px;
+  margin: 0 auto 15px;
 }/*# sourceMappingURL=styles.css.map */
