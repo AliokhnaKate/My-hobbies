@@ -1,4 +1,8 @@
-.reading__description {
-    max-width: 700px;
-    margin: 0 auto 15px;
+.reading {
+    padding-right: 25px;
+    padding-left: 25px;
+    &__description {
+        max-width: 700px;
+        margin: 0 auto 15px;
+    }
 }

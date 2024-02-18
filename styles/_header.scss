@@ -17,3 +17,21 @@
         background-color: #e5f4ff;
     }
 }
+
+@media screen and (max-width: 850px) {
+    .header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &__image {
+            max-width: 400px;
+            margin-right: 0;
+        }
+        &__title {
+            border: none;
+            padding: 0;
+            background-color: white;
+            margin: 25px 0 0;
+        }
+    }
+}

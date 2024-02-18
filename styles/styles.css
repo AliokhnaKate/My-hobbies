@@ -6,6 +6,12 @@
   margin: 0 auto;
 }
 
+@media screen and (max-width: 850px) {
+  .wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 /*Файл с общими стилями*/
 * {
   box-sizing: border-box;
@@ -33,6 +39,11 @@ ul {
   max-width: 550px;
 }
 
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 1.9rem;
+  }
+}
 .subtitle {
   font-size: 2rem;
   margin: 15px 0;
@@ -63,6 +74,23 @@ ul {
   background-color: #e5f4ff;
 }
 
+@media screen and (max-width: 850px) {
+  .header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header__image {
+    max-width: 400px;
+    margin-right: 0;
+  }
+  .header__title {
+    border: none;
+    padding: 0;
+    background-color: white;
+    margin: 25px 0 0;
+  }
+}
 .my-hobbies {
   padding-top: 0;
   text-align: center;
@@ -106,6 +134,10 @@ ul {
   margin-right: 24px;
 }
 
+.reading {
+  padding-right: 25px;
+  padding-left: 25px;
+}
 .reading__description {
   max-width: 700px;
   margin: 0 auto 15px;
@@ -131,6 +163,24 @@ ul {
      object-fit: cover;
 }
 
+@media screen and (max-width: 1240px) {
+  .aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+  }
+  .aside__title {
+    padding: 0;
+    margin: 0 0 25px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .aside__title {
+    padding: 0;
+    margin: 0 0 25px;
+  }
+}
 .list {
   display: flex;
   justify-content: center;
