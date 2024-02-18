@@ -3,8 +3,8 @@
 @mixin title ($m-width) {
     font-size: $title-font;
     margin: 0 auto 25px;
+    text-align: center;
     max-width: $m-width;
-    border: 2px solid black;
 }
 
 @mixin subtitle {
