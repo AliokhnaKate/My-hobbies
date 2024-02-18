@@ -1,0 +1,18 @@
+/*Файл с миксинами*/
+
+@mixin title ($m-width) {
+    font-size: $title-font;
+    margin: 0 auto 25px;
+    text-align: center;
+    max-width: $m-width;
+}
+
+@mixin subtitle {
+    font-size: $subtitle-font;
+    margin: 15px 0;
+}
+
+@mixin text {
+    font-size: $text-font;
+    margin-bottom: 15px;
+}

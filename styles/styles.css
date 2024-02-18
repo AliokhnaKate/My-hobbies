@@ -1,31 +1,191 @@
-body {
-    font-size: 24px;
-    background-color: #fff8dc;
-    border: 5px solid green;
-    text-align: center;
+@charset "UTF-8";
+/*Файл с переменными*/
+.wrapper {
+  max-width: 1200px;
+  padding: 70px 0;
+  margin: 0 auto;
 }
 
-h1 {
-    color: #800080;
-    text-transform: uppercase;
-    text-align: center;
+@media screen and (max-width: 850px) {
+  .wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+/*Файл с общими стилями*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-    color: rgb(46, 139, 87);
-    font-size: 1.5em;
-    font-style: italic;
+html {
+  font-size: 16px;
 }
 
-section.red {
-    color: #ff0000;
-    text-decoration: underline;
+a {
+  text-decoration: none;
 }
 
-.bold {
-    font-weight: bold;
+ul {
+  list-style-type: none;
 }
 
-.left {
-    text-align: left;
+/*Файл с миксинами*/
+.title {
+  font-size: 2.5rem;
+  margin: 0 auto 25px;
+  text-align: center;
+  max-width: 550px;
 }
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 1.9rem;
+  }
+}
+.subtitle {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+
+.text {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header__image {
+  max-width: 400px;
+  margin-right: 45px;
+}
+.header__image:hover {
+  transform: scale(1.5);
+}
+.header__title {
+  max-width: 300px;
+  text-align: center;
+  border: 2px solid brown;
+  padding: 150px 0;
+  color: brown;
+  background-color: #e5f4ff;
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header__image {
+    max-width: 400px;
+    margin-right: 0;
+  }
+  .header__title {
+    border: none;
+    padding: 0;
+    background-color: white;
+    margin: 25px 0 0;
+  }
+}
+.my-hobbies {
+  padding-top: 0;
+  text-align: center;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+}
+
+.psychology {
+  margin: 0 auto;
+  /*не применяется св-во к классу .psychology__link*/
+}
+.psychology__title {
+  margin-top: 0;
+}
+.psychology__description {
+  margin-bottom: 0;
+}
+.psychology a {
+  color: green;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+}
+.column__link {
+  width: calc((100% - 24px) / 2);
+}
+.column__link img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.column__link:not(:last-child) {
+  margin-right: 24px;
+}
+
+.reading {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.reading__description {
+  max-width: 700px;
+  margin: 0 auto 15px;
+}
+
+.aside {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.aside__title {
+  max-width: 500px;
+  text-align: center;
+  padding: 150px 0;
+  text-decoration: underline;
+  margin-bottom: 0;
+  margin-right: 25px;
+}
+.aside img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 1240px) {
+  .aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+  }
+  .aside__title {
+    padding: 0;
+    margin: 0 0 25px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .aside__title {
+    padding: 0;
+    margin: 0 0 25px;
+  }
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+.list__item {
+  margin-right: 25px;
+  font-size: 2rem;
+}/*# sourceMappingURL=styles.css.map */

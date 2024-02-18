@@ -1,0 +1,15 @@
+.psychology {
+    margin: 0 auto;
+    &__title {
+        margin-top: 0;
+    }
+    &__description {
+        margin-bottom: 0;
+    }
+    & a {
+        color: green;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    /*не применяется св-во к классу .psychology__link*/
+}
