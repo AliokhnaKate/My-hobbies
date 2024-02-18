@@ -19,4 +19,22 @@ a {
   text-decoration: none;
 }
 
-/*Файл с миксинами*//*# sourceMappingURL=styles.css.map */
+/*Файл с миксинами*/
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header__image {
+  max-width: 400px;
+  margin-right: 45px;
+}
+.header__image:hover {
+  transform: scale(1.5);
+}
+.header__title {
+  max-width: 300px;
+  text-align: center;
+  border: 2px solid brown;
+  padding: 150px 0;
+  color: brown;
+}/*# sourceMappingURL=styles.css.map */
